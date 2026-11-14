@@ -8,8 +8,7 @@ O produto entregue é um **site** gerado em Python.
 
 ## Para quem só quer ver o trabalho
 
-Abra o arquivo **`index.html`** (pasta principal) com duplo clique. Funciona em qualquer navegador, sem internet
-e sem instalar nada. Todos os gráficos, dados e estilos estão dentro desse único arquivo.
+Abra o link https://dutakeuchi.github.io/previsao_de_demanda/#visao. Todos os gráficos, dados e estilos estão dentro do link.
 
 ## O que há em cada pasta
 
@@ -44,21 +43,6 @@ e sem instalar nada. Todos os gráficos, dados e estilos estão dentro desse ún
 4. **Escolha:** vence o método de menor MAPE por modal. Rodoviário: ponderação exponencial simples (α = 0,2), MAPE 7,0%. Aéreo: média móvel de 4 semanas, MAPE 12,1%. Total (soma dos modais): MAPE 7,1%.
 5. **Sazonalidade:** índice mensal calculado sobre os últimos 12 meses (Ballou, Eq. 8-6 a 8-9), aplicado sobre a projeção.
 6. **Projeção:** 6 meses (outubro/2026 a março/2027) com faixa de confiança de 95%.
-
-## Como gerar o site de novo (opcional)
-
-1. Instale o Python 3 e, na pasta `codigo/`, rode: `pip install -r requirements.txt`
-2. Copie a planilha para `dados/` com o nome **`Base Movimento.xlsx`**.
-3. Abra o terminal em `codigo/` e rode: `python gerar_site.py`
-   (leva cerca de 20 segundos; para outra planilha: `python gerar_site.py caminho/da/planilha.xlsx`).
-4. O programa confere os totais com a planilha e atualiza `index.html` e `auditoria/dados.json`.
-
-**Sobre a planilha:** `Base Movimento.xlsx` contém dados da empresa e **não está neste pacote**. O `index.html` já abre sem ela.
-Ela só é necessária para recalcular. Para outra base, mantenha as colunas listadas em `config.py` (`COLUNAS`).
-
-## Colocar na internet
-
-Veja `publicacao/PUBLICAR_ONLINE.md`.
 
 ## Limitações declaradas
 
