@@ -3,4 +3,4 @@ Coloque aqui a planilha da empresa com o nome:
     Base Movimento.xlsx
 
 (dados da empresa; nao incluida no pacote). Necessaria apenas para recalcular o site.
-Veja o LEIAME.md na pasta principal.
+Veja o README.md na pasta principal.

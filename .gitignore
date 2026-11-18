@@ -1,0 +1,16 @@
+# Dados da empresa: não publicar
+*.xlsx
+*.xls
+*.csv.bak
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Editores e sistema
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
